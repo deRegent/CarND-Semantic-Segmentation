@@ -66,6 +66,8 @@ def layers(vgg_layer3_out, vgg_layer4_out, vgg_layer7_out, num_classes, sess=Non
     :return: The Tensor for the last layer of output
     """
 
+    # based on the lesson 10: Scene Understanding, FCN-8 - Decoder
+
     stddev = 0.01
     reg = 1e-3
 
